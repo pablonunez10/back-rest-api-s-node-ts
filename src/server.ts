@@ -23,11 +23,12 @@ const server = express()
 
 const corsOption : CorsOptions= {
     origin: function(origin, callback) {
-        if(origin === process.env.FRONTEND_URL) {
-            callback(null, true)
-        } else {
-            callback(new Error('Error Cors'))
-        }
+        // if(origin === process.env.FRONTEND_URL) {
+        //     callback(null, true)
+        // } else {
+        //     callback(new Error('Error Cors'))
+        // }
+        callback(null, true)
     }
 }
 server.use(cors(corsOption))
