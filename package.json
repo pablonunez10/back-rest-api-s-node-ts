@@ -1,5 +1,5 @@
 {
-  "name": "rest_api_node_ts_server",
+  "name": "server",
   "version": "1.0.0",
   "description": "Rest API's con Espress y Typescript",
   "main": "index.js",
